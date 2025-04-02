@@ -1,0 +1,142 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+
+
+* {
+    font-family: 'Montserrat';
+}
+
+
+body {
+    margin: 0 auto;
+}
+
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    font-family: 'Montserrat';
+    align-items: center;
+}
+
+header.header img {
+    width: 120px;
+}
+
+section.top-page {
+    background: url('../image/Image.png');
+    background-size: cover;
+    height: 94vh;
+    padding: 25px;
+}
+
+section.bests-items {
+    background: url('../image/laser-game-web-scaled.jpg');
+    background-size: cover;
+    height: 94vh;
+    padding: 25px;
+}
+
+.big-title {
+    color: white;
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    width: 50;
+    padding: 20px 140px;
+
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 50px;
+}
+
+/* menu de navigation */
+
+
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.section-title { 
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 100;
+    position: relative;
+    margin: 100px;
+    color: black;
+}
+
+
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    font-family: 'Abril FatFace';
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.Prix {
+    margin: 100px;
+
+}
+
+.Prix-Mon {
+    font-family: cursive;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    
+}
+
+h5.triangle img {
+    width: 25px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+
+.organisation {
+    font-family: 'Montserrat';
+    margin: 100px;
+    color: white;
+    
+}
+
+
+.Case {
+    justify-content: space-between;
+}
